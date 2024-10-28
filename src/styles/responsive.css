@@ -2,4 +2,34 @@
   .navigationBar {
     box-shadow: var(--bs-box-shadow-sm) !important;
   }
+  .section-title .title-paragraph {
+    width: 75%;
+  }
+  .hero-section .section-title {
+    padding-top: 175px;
+  }
+  /* hero arrow  */
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 89%;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 20px !important;
+  }
+  .swiper-button-prev {
+    left: 30%;
+  }
+  .swiper-button-next {
+    right: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .section-title .title-paragraph {
+    width: 100%;
+  }
+
+  .hero-section .twin-button {
+    top: 30px;
+  }
 }
