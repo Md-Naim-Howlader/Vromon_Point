@@ -5,8 +5,27 @@
   --font-roboto: "Roboto", serif;
   --font-poppins: "Poppins", serif;
 }
-body {
+.text-primary {
+  color: #0ab2e5 !important;
+}
+.bg-primary {
+  background: #0ab2e5 !important;
+}
+.btn-primary {
+  background: #0ab2e5;
+}
+.bg-default {
   background-color: #f4f9f4;
+}
+.icon {
+  font-size: 20px;
+}
+.loader {
+  width: 40px;
+  position: absolute;
+  left: -31px;
+  top: 0;
+  z-index: 999;
 }
 h1,
 h2,

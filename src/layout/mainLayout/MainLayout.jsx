@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../footer/Footer";
 import Header from "../header/Header";
+import ScrollTop from "../../components/ScrollTop";
 
 const MainLayout = () => {
   return (
     <>
       <Header />
+      <ScrollTop />
       <Outlet />
-      <Footer />
     </>
   );
 };

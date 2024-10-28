@@ -1,3 +1,13 @@
+.header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #f4f9f4;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
 header .nav-link {
   font-family: var(--font-roboto);
   font-size: 22px;
@@ -7,6 +17,10 @@ header .nav-link {
 .navbar-nav .nav-link.show {
   color: #0ab2e5 !important;
 }
+.nav-link:hover {
+  color: #0ab2e5 !important;
+}
+
 .has-search {
   position: relative;
 }
@@ -37,4 +51,19 @@ header .nav-link {
 }
 .header-search::placeholder {
   font-size: 15px;
+}
+.header-top {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.header-top .icon-txt {
+  font-family: var(--font-roboto);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.3125rem;
+}
+.header-top .icon {
+  font-size: 1.25rem;
+}
+.header-top .css-13cymwt-control {
+  border-width: 0 !important;
 }
