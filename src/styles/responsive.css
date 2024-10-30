@@ -53,6 +53,10 @@
   .custom-swiper {
     padding-bottom: 100px;
   }
+  /* blogs */
+  img.sell-img {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .section-title .title-paragraph {

@@ -33,7 +33,7 @@
   width: 220px;
   border: none;
   border-radius: 5px;
-  padding: 10px 58px;
+  padding: 10px 50px;
   background: linear-gradient(93deg, #0ab2e5 0%, #f97b17 100%);
 }
 .swiper-button-prev,
@@ -60,4 +60,19 @@
 .swiper-button-prev:hover {
   background: #0ab2e5 !important;
   color: #f4f9f4;
+}
+
+/* second title for small size */
+.section-title.second .title-info {
+  color: #f97b17;
+  font-family: var(--font-satisfy);
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.section-title.second .title-heading {
+  color: #0ab2e5;
+  font-family: var(--font-poppins);
+  font-size: 65px;
+  font-weight: 600;
 }

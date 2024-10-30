@@ -1,8 +1,22 @@
+import Destination from "../components/Destination";
+import GetReady from "../components/GetReady";
+import HeroSmall from "../components/HeroSmall";
+
 const Destinations = () => {
+  const heroValues = {
+    info: "Pick Your Dream Destination",
+    heading: "Create memories in Bangladesh",
+    sliderNo: "hero-slider hero-1",
+    headingColor: "text-primary title-heading ",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene ancommodo ligula eget dolor. Aenean massa. Cum sociis the",
+  };
   return (
-    <div className="bg-default">
-      <h1>Destinations</h1>
-    </div>
+    <>
+      <HeroSmall heroValues={heroValues} />
+      <Destination />
+      <GetReady />
+    </>
   );
 };
 

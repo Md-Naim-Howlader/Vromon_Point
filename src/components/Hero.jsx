@@ -102,7 +102,7 @@ const Hero = () => {
         <SwiperSlide>
           <div className="hero-slider hero-1">
             <div className="twin-button">
-              <button>Discount</button>
+              <button>See Discount</button>
               <button className="mt-3">Book Now</button>
             </div>
             <div className="container">
@@ -118,9 +118,9 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero-slider hero-2">
+          <div className="hero-slider hero-1">
             <div className="twin-button">
-              <button>Discount</button>
+              <button>See Discount</button>
               <button className="mt-3">Book Now</button>
             </div>
             <div className="container">

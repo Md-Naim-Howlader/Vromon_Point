@@ -1,0 +1,55 @@
+.blog h4 {
+  color: #333;
+  font-family: var(--font-poppins);
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.blog p {
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.blog span {
+  display: inline-block;
+  color: #333;
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.sell-up-stiker {
+  background-color: #0ab2e5;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: -3px;
+  top: 33px;
+  width: 100%;
+  transform: skewY(-20deg) rotate(15deg);
+  /* display: none; */
+}
+img.sell-img {
+  width: 400px;
+}
+.sell-up-stiker h3 {
+  color: #fff;
+  font-family: var(--font-satisfy);
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+.sell-up-stiker span {
+  display: inline-block;
+  color: #fff;
+  font-family: var(--font-poppins);
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
