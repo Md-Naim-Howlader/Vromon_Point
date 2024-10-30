@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import SearchDestinations from "../components/SearchDestinations";
 import GetReady from "../components/GetReady";
 import TravelReview from "../components/TravelReview";
+import VisionMission from "../components/VisionMission";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Destination />
       <GetReady />
       <TravelReview />
+      <VisionMission />
     </>
   );
 };

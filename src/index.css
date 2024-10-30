@@ -32,6 +32,20 @@
 .icon {
   font-size: 20px;
 }
+.mini-title h2 {
+  color: #0ab2e5;
+  font-family: var(--font-poppins);
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.mini-title p {
+  color: #333;
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
 .loader {
   width: 40px;
   position: absolute;
