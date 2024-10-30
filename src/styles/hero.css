@@ -1,16 +1,22 @@
 .hero-1 {
   background: url("/images/hero-bg-1.jpg");
 }
+.hero-2 {
+  background: url("/images/hero-bg-2.png");
+}
 
 .hero-slider {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 89vh;
   position: relative;
 }
 .hero-section .section-title {
   padding-top: 80px;
+}
+.hero-section .section-title .title-heading {
+  font-size: 70px;
 }
 .hero-section .twin-button {
   position: absolute;

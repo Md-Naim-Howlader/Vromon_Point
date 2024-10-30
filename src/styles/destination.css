@@ -1,0 +1,46 @@
+.destination {
+  padding-top: 150px;
+}
+section.destination .row {
+  margin-top: 100px;
+}
+section.destination .circle-image span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  color: #fcfcfc;
+  text-align: center;
+  font-family: var(--font-satisfy);
+  font-size: 48px;
+  font-weight: 400;
+}
+section.destination .rectangle-image .caption {
+  background: rgba(51, 51, 51, 0.5);
+  padding: 44px 50px 33px 50px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+section.destination .rectangle-image .caption h5 {
+  color: #fcfcfc;
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section.destination .rectangle-image .caption .review {
+  color: #fcfcfc;
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+}
+section.destination .rectangle-image .caption .review.position-relative {
+  top: 70%;
+}

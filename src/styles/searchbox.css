@@ -1,0 +1,155 @@
+.searchbox {
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 28% 28% 28% 10%;
+  grid-gap: 20px;
+}
+.searchbox input {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: #fff;
+  border: 2px solid #bbbbbb;
+  font-size: 17px;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.searchbox .date_person {
+  padding: 0.39rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-murecho);
+  line-height: 1.5;
+  color: #212529;
+  background: #fff;
+  border: 2px solid #bbbbbb;
+  font-size: 17px;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.searchbox input:focus {
+  border-color: #86b7fe;
+  color: #212529;
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.searchbox .date_person:focus {
+  border-color: #86b7fe;
+  color: #212529;
+  background: #fff;
+  outline: 1px solid #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.searchbox .date_person span {
+  font-size: 18px;
+  display: block;
+}
+
+/* show calender */
+.arrowIcon {
+  font-size: 24px;
+  transition: all 0.2s;
+}
+.arrowActive {
+  transform: rotate(90deg);
+}
+.calenderContainer {
+  position: relative;
+}
+.calender {
+  position: absolute;
+  left: 32%;
+  top: 300px;
+}
+.searchbox .searchBtn {
+  background: #126fde;
+  display: block;
+  position: relative;
+  top: -5px;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* options style */
+.searchbox .options {
+  position: absolute;
+  left: 0;
+  top: 62px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.countBtn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.flex_options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.flex_options button {
+  background: #126fde;
+  border: none;
+  padding: 3px 13px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+.flex_options div {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.flex_options p {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .searchbox {
+    grid-template-columns: 1fr;
+  }
+  .searchbox .date_person span {
+    display: block;
+    width: 100%;
+  }
+  .searchbox .options {
+    top: 45px;
+  }
+  .calender {
+    top: 235px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calender {
+    top: 235px;
+    left: 32px;
+  }
+}

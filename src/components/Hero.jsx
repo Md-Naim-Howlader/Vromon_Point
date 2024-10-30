@@ -109,14 +109,15 @@ const Hero = () => {
                 <span className="title-info text-white">let&apos;s go now</span>
                 <h2 className="title-heading text-white">Destinations</h2>
                 <p className="title-paragraph text-white">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene
+                  an commodo ligula eget dolor. Aenean massa. Cum sociis the
                 </p>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero-slider hero-1">
+          <div className="hero-slider hero-2">
             <div className="twin-button">
               <button>Discount</button>
               <button className="mt-3">Book Now</button>
@@ -126,14 +127,13 @@ const Hero = () => {
                 <span className="title-info text-white">let&apos;s go now</span>
                 <h2 className="title-heading text-white">Destinations</h2>
                 <p className="title-paragraph text-white">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene
+                  an commodo ligula eget dolor. Aenean massa. Cum sociis the
                 </p>
               </div>
             </div>
           </div>
         </SwiperSlide>
-
-        {/* Add additional slides as needed */}
       </Swiper>
     </section>
   );
