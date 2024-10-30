@@ -85,6 +85,14 @@ const Destination = () => {
             </div>
           </div>
         </div>
+        <div className="mt-5 text-center border-0">
+          <button
+            className="btn btn-lg btn-primary px-5 py-3"
+            title="Browse More"
+          >
+            Browse More{" "}
+          </button>
+        </div>
       </div>
     </section>
   );

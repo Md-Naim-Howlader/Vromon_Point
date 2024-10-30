@@ -78,7 +78,7 @@
 
 import "../styles/hero.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -95,7 +95,8 @@ const Hero = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
         navigation
-        autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 2000 }}
+        speed={1500}
         loop={true}
       >
         <SwiperSlide>
