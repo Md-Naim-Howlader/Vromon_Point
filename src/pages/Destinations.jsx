@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Destination from "../components/Destination";
 import GetReady from "../components/GetReady";
 import HeroSmall from "../components/HeroSmall";
@@ -11,6 +12,9 @@ const Destinations = () => {
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene ancommodo ligula eget dolor. Aenean massa. Cum sociis the",
   };
+  useEffect(() => {
+    document.title = "Destinations | Vromon Point";
+  });
   return (
     <>
       <HeroSmall heroValues={heroValues} />

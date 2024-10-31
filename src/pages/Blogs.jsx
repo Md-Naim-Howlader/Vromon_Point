@@ -1,7 +1,11 @@
 import { FaRegCommentDots } from "react-icons/fa";
 import "../styles/blog.css";
+import { useEffect } from "react";
 
 const Blogs = () => {
+  useEffect(() => {
+    document.title = "Blogs | Vromon Point";
+  });
   return (
     <section className="bg-default pt-5">
       <div className="container">

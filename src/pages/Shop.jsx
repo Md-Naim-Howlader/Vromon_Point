@@ -2,6 +2,7 @@ import HeroSmall from "../components/HeroSmall";
 import { FaStar } from "react-icons/fa";
 import "../styles/shop.css";
 import { Nav } from "react-bootstrap";
+import { useEffect } from "react";
 
 const Shop = () => {
   const heroValues = {
@@ -11,6 +12,9 @@ const Shop = () => {
     headingColor: "text-white title-heading ",
     paragraph: "",
   };
+  useEffect(() => {
+    document.title = "Shop | Vromon Point";
+  });
   return (
     <div>
       <HeroSmall heroValues={heroValues} />
