@@ -8,7 +8,7 @@ import Blogs from "./Blogs";
 
 const Home = () => {
   return (
-    <>
+    <div className="home-page">
       <div className="position-relative">
         <Hero />
         <SearchDestinations />
@@ -18,7 +18,7 @@ const Home = () => {
       <TravelReview />
       <VisionMission />
       <Blogs />
-    </>
+    </div>
   );
 };
 

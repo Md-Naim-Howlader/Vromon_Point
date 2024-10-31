@@ -44,6 +44,9 @@
   }
   /* destination component */
   .destination {
+    padding-top: 60px;
+  }
+  .home-page .destination {
     padding-top: 450px;
   }
   section.destination .row {
@@ -67,5 +70,11 @@
   }
   .section-title .title-heading {
     font-size: 45px;
+  }
+  .shop-item img {
+    width: 100%;
+  }
+  .heading-small {
+    font-size: 50px !important;
   }
 }

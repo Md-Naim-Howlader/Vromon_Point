@@ -7,7 +7,7 @@ const Destinations = () => {
     info: "Pick Your Dream Destination",
     heading: "Create memories in Bangladesh",
     sliderNo: "hero-slider hero-1",
-    headingColor: "text-primary title-heading ",
+    headingColor: "text-primary title-heading heading-small",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene ancommodo ligula eget dolor. Aenean massa. Cum sociis the",
   };
