@@ -97,7 +97,7 @@ const Hero = () => {
         navigation
         autoplay={{ delay: 2000 }}
         speed={1500}
-        loop={true}
+        // loop={true}
       >
         <SwiperSlide>
           <div className="hero-slider hero-1">
