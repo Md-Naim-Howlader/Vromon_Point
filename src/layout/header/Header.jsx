@@ -76,13 +76,14 @@ const Header = () => {
             <img src="images/logo2.png" alt="Vromon Point Logo" />
           </NavLink>
           <Navbar.Toggle
+            className="toggleIcon"
             aria-controls="basic-navbar-nav"
             onClick={() => setToggle(!toggle)}
           >
             {toggle ? (
-              <AiOutlineClose className="icon" />
+              <AiOutlineClose className=" text-primary fs-2" />
             ) : (
-              <FaBars className="icon" />
+              <FaBars className=" text-primary fs-2" />
             )}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
