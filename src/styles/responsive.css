@@ -77,4 +77,8 @@
   .heading-small {
     font-size: 50px !important;
   }
+  .sell-up-stiker {
+    left: 1px;
+    width: 97%;
+  }
 }
