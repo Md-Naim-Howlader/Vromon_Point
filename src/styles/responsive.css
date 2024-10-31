@@ -82,4 +82,7 @@
     width: 93%;
     top: 21px;
   }
+  .hero-section .section-title .title-heading {
+    font-size: 55px;
+  }
 }
