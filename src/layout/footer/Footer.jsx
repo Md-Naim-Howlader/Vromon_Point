@@ -74,7 +74,7 @@ const Footer = () => {
                 </NavLink>
               </Nav>
             </div>
-            <div className="col-lg-4 ms-3 ms-md-0 col-md-6 mt-5 mt-lg-0 ps-0 ps-lg5">
+            <div className="col-lg-4 ps-3 ps-md-0 col-md-6 mt-5 mt-lg-0 ps-0 ps-lg5">
               <h4>Subscribe to our Newsletter</h4>
               <p className="mb-3">
                 Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
